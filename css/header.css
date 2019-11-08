@@ -1,0 +1,47 @@
+#header{
+  min-width:1200px;
+  width:1200px;
+  /*width:100%;*/
+ height:100px;
+  margin:auto;
+}
+div.brand{
+  margin-left:20px;
+}
+div.brand>a>img{
+  height:70px;
+  margin-top:15px;
+}
+ul.nav{
+  height:42px;
+  margin-top:29px;
+}
+ul.nav>li{
+ width:100px;
+ height:42px;
+float:left;
+text-align:center;
+line-height:42px;
+font-size:18px;
+}
+ul.nav>li>ul{
+  width:0;
+  overflow:hidden;
+  transition:all .5s linear; 
+  background:#fff;
+  z-index:1000;
+  position:relative;
+}
+ul.nav>li>ul>li{
+  width:150px;
+  height:42px;
+  transition:all .5s linear; 
+}
+ul.nav>li:hover>a+ul{
+  width:150px
+}
+ul.nav>li>a+ul>li:hover{
+background:#eee;
+border-radius:5px;
+
+}

@@ -1,0 +1,108 @@
+#top-img{
+  position:relative;
+}
+#top-img>div.top-text{
+  position:absolute;
+  top:30%;
+  left:40%;
+}
+#top-img>div.top-text>p{
+  font-size:30px;
+  font-weight:600;
+  margin-top:20px;
+  color:#fff;
+}
+/*我们的服务*/
+#service-item{
+  width:100%;
+  height:400px;
+ 
+  margin-top:40px;
+}
+#service-item>div:first-child{
+  height:100px;
+  text-align:center;
+}
+#service-item>div:first-child>p:first-child{
+      font-size: 24px;
+    color: rgb(51, 51, 51);
+}
+#service-item>div:first-child>p:last-child{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+ul.item-class{
+  display:flex;
+  justify-content:space-between;
+
+}
+ul.item-class>li{
+  width:30%;
+  height:185px;
+  
+  float:left;
+  position:relative;
+}
+ul.item-class>li:hover{
+  box-shadow: 0px 0px 10.75px 6.25px rgba(0, 0, 0, 0.15);
+   transition: all 0.3s;
+}
+ul.item-class>li>div:first-child~div{
+  text-align:center;
+  margin-top:10px;
+}
+ul.item-class>li>div>img{
+ width:100%;
+}
+ul.item-class>li>div.title{
+  font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+ul.item-class>li>div.title+div{
+width:100px;
+margin:10px auto;
+}
+
+ul.item-class>li>div:last-child>a{
+font-family: "Microsoft YaHei", 微软雅黑, MicrosoftJhengHei, 华文细黑, STHeiti, MingLiu;
+color: rgb(153, 153, 153);
+}
+div.service-show{
+  width:100%;
+  height:310px;
+  background:url('../img/serviceItem/great.jpg') no-repeat;
+}
+div.service-show>div{
+  width:90%;
+  margin:auto;
+  position:relative;
+}
+div.service-show>div>div:first-child{
+  width:30%;
+  position:absolute;
+  left:0;
+  top:30px;
+}
+div.service-show>div>div:first-child>img{
+  width:300px;
+}
+div.service-show>div>div:last-child{
+  width:60%;
+  position:absolute;
+  right:0;
+  top:60px;
+}
+div.service-show>div>div:last-child>div:first-child{
+color: rgb(116, 192, 0);
+font-size:36px;
+margin-bottom:20px;
+}
+div.service-show>div>div:last-child>div:last-child{
+  width:140px;
+  height:40px;
+  border:2px solid rgb(116, 192, 0);
+  border-radius:10px;
+  text-align:center;
+  line-height:40px;
+  margin-top:30px;
+}

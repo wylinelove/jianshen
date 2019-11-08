@@ -1,0 +1,177 @@
+#top-img{
+  position:relative;
+}
+#top-img>div.top-text{
+  position:absolute;
+  top:30%;
+  left:40%;
+}
+#top-img>div.top-text>p{
+  font-size:30px;
+  font-weight:600;
+  margin-top:20px;
+  color:#fff;
+}
+#top-img>img{
+    width:100%;
+}
+div.about-detail{
+  width:80%;
+  height:540px;
+   position:relative;
+   margin:40px auto;
+   overflow:hidden;
+}
+div.about-detail>div.text-detail{
+  width:45%;
+  position:absolute;
+  top:0;
+  left:0;
+  
+  height:50%;
+}
+div.about-detail>div.text-detail>div>h3{
+      font-size: 36px;
+    color: rgb(25, 34, 39);
+	margin-bottom:30px;
+}
+div.about-detail>div.text-detail>div>h3+div{
+  font-size: 18px;
+    color: rgb(102, 102, 102);
+	 margin-bottom:10px;
+}
+div.about-detail>div.text-detail>div>h3+div+div{
+  margin-bottom:20px;
+}
+div.about-detail>div.text-detail+div{
+  width:50%;
+   position:absolute;
+  top:0;
+  right:0;
+  height:50%;
+}
+div.about-detail>div.text-detail+div>img{
+width:100%;
+}
+div.about-detail>ul.image-detail{
+  position:absolute;
+  left:0;
+  bottom:-200px;
+  width:100%;
+  height:230px;
+  display:flex;
+  justify-content:space-between;
+  transition:all .5s linear;
+  animation-delay:1s;
+}
+
+
+div.about-detail>ul.image-detail>li{
+  width:230px;
+ height:200px;
+   overflow:hidden;
+    margin-top:20px;
+}
+div.about-detail>ul.image-detail>li>img{
+ width:230px;
+ height:200px;
+ transition:all linear 0.5s;  
+}
+div.about-detail>ul.image-detail>li>img:hover{
+  transform:scale(1.5);
+  
+}
+div.about-declare{
+ width:100%;
+ height:300px;
+ background-color: rgb(244, 243, 241);
+ position:relative;
+}
+div.about-declare>div.declare-detail{
+  position:absolute;
+  width:35%;
+  height:50%;
+  left:30%;
+  bottom:80px;
+}
+div.about-declare>div.declare-detail>div:first-child{
+   background-color: rgb(244, 243, 241);
+}
+div.about-declare>div.declare-detail>div>img{
+  max-width: 100%;
+max-height: initial;
+}
+div.about-declare>div.declare-detail>div{
+  color: rgb(25, 34, 39);
+    font-size: 18px;
+	margin-bottom:20px;
+	text-align:center;
+}
+div.about-experience{
+  width:100%;
+  height:500px;
+  background:url(../img/AboutUs/run.jpg) no-repeat;
+  color:#fff;
+   position:relative;
+}
+div.about-experience>div{
+  width:100%;
+  position:absolute;
+  left:20px;
+  top:30%;
+}
+div.about-experience>div>p{
+  
+  text-align:center;
+  font-size:60px;
+  margin-bottom:40px;
+}
+div.about-experience>div>div{
+  display:flex;
+  justify-content:space-between;
+  width:80%;
+  margin:auto;
+}
+div.about-experience>div>div>div>div:first-child{
+ font-size:48px;
+}
+div.about-ward{
+  width:100%;
+  height:500px;
+  margin-top:40px;
+}
+div.about-ward>div.bannerCertificates{
+  width:1000px;
+  overflow:hidden;
+}
+div.about-ward>div.bannerCertificates>ul{
+  width:2000px;
+  position:relative;
+}
+div.about-ward>div.bannerCertificates>ul>li{
+  width:1000px;
+  float:left;
+ display:flex;
+  justify-content:space-between;
+}
+div.about-ward>div.bannerCertificates>ul>li>span{
+  width:30%;
+  border:1px solid red;
+  float:left;
+}
+div.about-ward>div.bannerCertificates>ul>li>span>img{
+    width:100%;
+    display:block;
+}
+div.about-ward>div{
+  text-align:center;
+  margin:40px auto;
+}
+div.about-ward>div>p:first-child{
+font-size: 36px;
+    color: rgb(25, 34, 39);
+}
+div.about-ward>div>p:first-child+p{
+font-size: 18px;
+    color: rgb(102, 102, 102);
+}

@@ -1,0 +1,101 @@
+#top-img{
+  position:relative;
+}
+#top-img>div.top-text{
+  position:absolute;
+  top:30%;
+  left:40%;
+}
+#top-img>div.top-text>p{
+  font-size:30px;
+  font-weight:600;
+  margin-top:20px;
+  color:#fff;
+  text-align:center;
+}
+/*Ö÷Ìå*/
+div.title{
+  width:90%;
+  height:20px;
+   margin:20px auto 10px;
+   line-height:20px;
+}
+div.title>a:last-child{
+  color:#777;
+}
+div.mainBody{
+  width:90%;
+/*  height:500px;*/
+  margin:20px auto;
+
+  position:relative;
+}
+div.mainBody>div.body-left{
+  width:80%;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+div.mainBody>div.body-left>div.bodyTitle{
+  font-size:40px;
+  color:#000;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+div.mainBody>div.body-left>div.pubTime{
+  margin-bottom:30px;
+}
+div.mainBody>div.body-left>div.body-detail{
+  font-size:15px;
+  line-height:2;
+   margin-bottom:30px;
+}
+div.mainBody>div.trans{
+margin-top:20px;
+}
+div.mainBody>div.trans>span{
+  display:inline-block;
+  position:relative;
+  top:20px;
+  width:56px;
+  height:50px;
+  background:url(../img/serviceItem/sj.png) no-repeat ;
+}
+div.mainBody>div.trans>span:first-child{
+ 
+  background-position:-65px -24px;
+}
+div.mainBody>div.trans>span:first-child+span{
+   background-position:-227px -24px;
+}
+div.mainBody>div.trans>span:first-child+span+span{
+   background-position:-227px -106px;
+}
+div.mainBody>div.trans>span.weibo{
+  background-position:-474px -580px;
+}
+div.mainBody>div.trans>span.qq{
+   background-position:-315px -580px;
+}
+div.mainBody>div.trans>span.fei{
+  background-position:-145px -827px;
+} 
+div.mainBody>div.body-right{
+  position:absolute;
+  top:20px;
+  right:0;
+  width:18%;
+  height:100%;
+  border-left:1px solid #ddd;
+  
+}
+div.mainBody>div.body-right>img{
+  position:absolute;
+  right:0;
+  top:20px;
+}
+div.mainBody>div.body-right>div{
+position:absolute;
+  right:0;
+  top:180px;
+  color:#000;
+}

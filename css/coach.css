@@ -1,0 +1,72 @@
+#top-img{
+  position:relative;
+}
+#top-img>div.top-text{
+  position:absolute;
+  top:30%;
+  left:40%;
+}
+#top-img>div.top-text>p{
+  font-size:30px;
+  font-weight:600;
+  margin-top:20px;
+  color:#fff;
+  text-align:center;
+}
+/*教练*/
+div.coaches{
+  width:100%;
+  height:800px;
+  margin-top:40px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  overflow:hidden;
+}
+div.coaches>div{
+  width:30%;
+  height:350px;
+  cursor:pointer;
+  position:relative;
+  overflow:hidden;
+ 
+}
+div.coaches>div>div.images{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:350px;
+
+}
+div.coaches>div>div.images>img{
+  width:100%;
+  height:100%;
+}
+div.coaches>div:hover>div.intro{
+ width:100%;
+ height:100%;
+ 
+}
+div.coaches>div>div.intro{
+position:absolute;
+  top:0;
+  left:0;
+  width:0;
+  height:0;
+  overflow:hidden;
+  transition:all .5s linear;
+   background:#fff;
+}
+div.coaches>div>div.intro>p{
+  text-align:center;
+ 
+}
+div.coaches>div>div.intro>p:first-child{
+  color: rgb(51, 51, 51);
+  font-size:26px;
+  margin-top:100px;
+}
+div.coaches>div>div.intro>p:last-child{
+color: rgb(153, 153, 153);
+ font-size:18px;
+}

@@ -1,0 +1,38 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+body {
+    background-color: transparent;
+	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: rgb(88, 102, 110);
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+color:rgb(102, 186, 0);
+
+}
+* {
+    box-sizing: border-box;
+}
+.rf{
+  float:right;
+}
+.lf{
+  float:left;
+}
+.clear:after{
+  display:block;
+  clear:both;
+}
+#main{
+  min-width:1000px;
+  width:1000px;
+  margin:auto;
+}

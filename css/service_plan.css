@@ -1,0 +1,44 @@
+#main{
+  border-top:6px solid #ddd;
+  margin-bottom:20px;
+}
+#main>div{
+  width:90%;
+  margin-top:100px;
+  position:relative;
+  margin-top:20px;
+}
+#main>div>div.text{
+  width:40%;
+  
+  height:323px;
+ 
+}
+#main>div>div.text>h3{
+  margin-top:50px;
+  color:#000;
+}
+#main>div>div.text>div{
+margin-top:20px;
+}
+
+#main>div>div.images{
+  width:60%;
+}
+#main>#monday>div.images,#main>#wednesday>div.images,#main>#Friday>div.images,#main>#Sunday>div.images{
+   position:absolute;
+  right:0;
+  top:0;
+ 
+}
+#main>div>div.images>img{
+   width:100%;
+   display:block;
+}
+#main>#tuesday>div.text,#main>#thursday>div.text,#main>#Saturday>div.text{
+  width:30%;
+   position:absolute;
+  right:0;
+  top:0;
+ 
+}

@@ -1,0 +1,29 @@
+
+#footer{
+  width:100%;
+  min-width:1000px;
+ background-color: rgb(25, 32, 37);
+  margin:0px auto;
+  height:200px;
+  position:relative;
+}
+#footer>div{
+  width:100%;
+  margin:0px auto;
+    clear:both;
+}
+#footer>div>div{
+  color:rgb(153, 153, 153);
+  margin-bottom:20px;
+}
+#footer>div>div:first-child{
+  font-size: 20px;
+}
+#footer>div>div:first-child+div>span,#footer>div>div:first-child+div+div>span{
+   display:inline-block;
+   margin-right:20px;
+   font-size:16px;
+}
+#footer>div>div:first-child+div+div>span>img{
+  display:block;
+}
